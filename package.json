@@ -4,9 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "help": "cowsay -h",
+    "cows": "cowsay -l",
+    "cowsay": "cowsay"
   },
   "keywords": [],
   "author": "Miguel Angel Martinez Serrato <g00301640@stu.raritanval.edu> (https://github.com/Miguelms017)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "cowsay": "^1.6.0"
+  }
 }
